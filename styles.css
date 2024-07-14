@@ -1,0 +1,44 @@
+/* Add some basic styling to our website */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2em;
+}
+
+section {
+	background-color: #f7f7f7;
+	padding: 1em;
+	margin-bottom: 2em;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	color: #333;
+}
+
+#learn-more-btn {
+	background-color: #007bff;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#learn-more-btn:hover {
+	background-color: #0069d9;
+}
